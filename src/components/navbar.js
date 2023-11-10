@@ -28,30 +28,26 @@ const Navbar = () => {
                                     Home
                                 </a>
                             </li>
-                            
-                            <li class="nav-item dropdown">
+                            <li class="nav-item">
                                 <a
-                                    class="nav-link dropdown-toggle"
+                                    class="nav-link active"
+                                    aria-current="page"
                                     href="#"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
                                 >
-                                    Para padres
+                                    Soy Padre
                                 </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="#">
-                                            Action
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">
-                                            Another action
-                                        </a>
-                                    </li>
-                                </ul>
                             </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                >
+                                    Soy Estudiante
+                                </a>
+                            </li>
+                            
+                            
                         </ul>
                     </div>
                 </div>
