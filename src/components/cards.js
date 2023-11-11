@@ -1,6 +1,9 @@
 import Padre from "./imagenes/man-light-skin-tone.png";
 import Estudiante from "./imagenes/man-technologist.png";
 
+import React from "react";
+import {Link} from "react-router-dom";
+
 const CardGroup = () => {
     return (
         <div
@@ -74,7 +77,9 @@ const CardGroup = () => {
                         tecnología trabaja para hacer tu vida más simple y
                         agradable para todos!
                     </p>
-                    <a href="/pagina-padre" class="btn btn-primary">
+                    {/* <Link to="/pagina-padre">
+                    </Link> */}
+                    <a link="/pagina-padre" href="./pagina-padre" class="btn btn-primary">
                         Soy Padre
                     </a>
                 </div>

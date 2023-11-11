@@ -1,3 +1,8 @@
-<div id="soypadre">
+import React from "react";
 
-</div>
+
+const paginaEstudiante = () => {
+    return <div></div>;
+};
+
+export default paginaEstudiante;
