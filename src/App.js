@@ -1,25 +1,25 @@
 import "./App.css";
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import Routes
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CardGroup from "./components/cards";
-import paginaPadres from "./components/paginaPadre";
-import paginaEstudiante from "./components/paginaEstudiante";
+import PaginaPadres from "./components/paginaPadre";
+import PaginaEstudiante from "./components/paginaEstudiante";
 import Navbar from "./components/navbar";
 
 function App() {
-    return (
-        <div className="App">
-            <Router>
-                <Navbar />
-                <Routes> {/* Wrap Routes around your Route components */}
-                    <Route path="/" element={<CardGroup />} /> {/* Use element prop instead of component */}
-                    <Route path="/paginaPadre" component={paginaPadres} />
-                    <Route path="/paginaEstudiante" component={paginaEstudiante} />
-                </Routes>
-            </Router>
-        </div>
-    );
+  return (
+    <div className="App">
+      <Router>
+        {/* <Navbar /> */}
+        <Routes>
+          <Route path="/" element={<CardGroup />} />
+          <Route path="paginaPadre" element={<PaginaPadres />} />
+          <Route path="paginaEstudiante" element={<PaginaEstudiante />} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
 export default App;
+

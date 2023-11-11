@@ -1,15 +1,18 @@
+
+
 import React from "react";
 import Navbar from "./navbar";
-import "./estilos.css";
-import Contenido from "./contentEstudiante";
 
-const paginaEstudiante = () => {
+
+const PaginaEstudiante = () => {
     return (
         <div>
-            <Navbar />
-            <Contenido />
+            {console.log('object')}
+            <Navbar/>
+            <h1>hola</h1>
+            {/* <Contenido /> */}
         </div>
     );
 };
 
-export default paginaEstudiante;
+export default PaginaEstudiante;
