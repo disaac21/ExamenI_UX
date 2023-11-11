@@ -9,7 +9,7 @@ const PaginaEstudiante = () => {
         <div>
             {console.log('object')}
             <Navbar/>
-            <h1>hola</h1>
+            <h1>Soy Estudiante</h1>
             {/* <Contenido /> */}
         </div>
     );
