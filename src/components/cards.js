@@ -40,7 +40,7 @@ const CardGroup = () => {
                         aprendizaje. ¡Bienvenido a un enfoque diseñado para
                         potenciar tu éxito estudiantil!
                     </p>
-                    <a href="/./components/pagina-estudiante" class="btn btn-primary">
+                    <a href="/paginaEstudiante" class="btn btn-primary">
                         Soy Estudiante
                     </a>
                 </div>
@@ -79,7 +79,7 @@ const CardGroup = () => {
                     </p>
                     {/* <Link to="/pagina-padre">
                     </Link> */}
-                    <a link="/pagina-padre" href="./pagina-padre" class="btn btn-primary">
+                    <a href="/paginaPadre" class="btn btn-primary">
                         Soy Padre
                     </a>
                 </div>

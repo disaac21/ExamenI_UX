@@ -31,7 +31,7 @@ const Navbar = () => {
                             <a
                                 class="nav-link active"
                                 aria-current="page"
-                                href="./components/pagina-padre"
+                                href="/paginaPadre"
                             >
                                 Soy Padre
                             </a>
@@ -40,7 +40,7 @@ const Navbar = () => {
                             <a
                                 class="nav-link active"
                                 aria-current="page"
-                                href="./components/pagina-estudiante"
+                                href="/paginaEstudiante"
                             >
                                 Soy Estudiante
                             </a>
