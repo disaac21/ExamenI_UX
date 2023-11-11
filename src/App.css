@@ -38,3 +38,9 @@
     transform: rotate(360deg);
   }
 }
+
+
+.InformacionJovenes{
+  font-family:cursive;
+  background-color: #9ccfff;
+}
