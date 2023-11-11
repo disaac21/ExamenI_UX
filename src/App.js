@@ -1,10 +1,12 @@
 import "./App.css";
+import CardGroup from "./components/cards";
 import Navbar from "./components/navbar";
 
 function App() {
     return (
-        <div>
-            <Navbar/>
+        <div className="App">
+            {/* <Navbar/> */}
+            <CardGroup/>
         </div>
     );
 }
