@@ -2,7 +2,7 @@ import Padre from "./imagenes/man-light-skin-tone.png";
 import Estudiante from "./imagenes/man-technologist.png";
 
 import React from "react";
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 
 const CardGroup = () => {
     return (
@@ -40,7 +40,7 @@ const CardGroup = () => {
                         aprendizaje. ¡Bienvenido a un enfoque diseñado para
                         potenciar tu éxito estudiantil!
                     </p>
-                    <a href="" class="btn btn-primary">
+                    <a href="/./components/pagina-estudiante" class="btn btn-primary">
                         Soy Estudiante
                     </a>
                 </div>
