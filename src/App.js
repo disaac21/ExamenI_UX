@@ -14,8 +14,8 @@ function App() {
                 <Navbar />
                 <Routes> {/* Wrap Routes around your Route components */}
                     <Route path="/" element={<CardGroup />} /> {/* Use element prop instead of component */}
-                    <Route path="/paginaPadre" exact component={paginaPadres} />
-                    <Route path="/paginaEstudiante" exact component={paginaEstudiante} />
+                    <Route path="/paginaPadre" component={paginaPadres} />
+                    <Route path="/paginaEstudiante" component={paginaEstudiante} />
                 </Routes>
             </Router>
         </div>
