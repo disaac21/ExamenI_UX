@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <header className="App-header">
+        // <header className="App-header">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
@@ -52,7 +52,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-        </header>
+        // </header>
     );
 };
 
