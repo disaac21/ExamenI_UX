@@ -37,7 +37,7 @@ const CardGroup = () => {
                         aprendizaje. ¡Bienvenido a un enfoque diseñado para
                         potenciar tu éxito estudiantil!
                     </p>
-                    <a href="#" class="btn btn-primary">
+                    <a href="" class="btn btn-primary">
                         Soy Estudiante
                     </a>
                 </div>
@@ -74,7 +74,7 @@ const CardGroup = () => {
                         tecnología trabaja para hacer tu vida más simple y
                         agradable para todos!
                     </p>
-                    <a href="#" class="btn btn-primary">
+                    <a href="/pagina-padre" class="btn btn-primary">
                         Soy Padre
                     </a>
                 </div>
