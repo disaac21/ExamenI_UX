@@ -4,13 +4,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CardGroup from "./components/cards";
 import PaginaPadres from "./components/paginaPadre";
 import PaginaEstudiante from "./components/paginaEstudiante";
-import Navbar from "./components/navbar";
+// import Navbar from "./components/navbar";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        {/* <Navbar /> */}
+        {/* { <Navbar /> } */}
         <Routes>
           <Route path="/" element={<CardGroup />} />
           <Route path="paginaPadre" element={<PaginaPadres />} />
