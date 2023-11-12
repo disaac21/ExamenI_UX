@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./navbar";
-import Carousel from "./carousel";
+import Carousel from "./CarouselStudent";
 import CardsEstudianteUno from "./cardsEstudianteUno";
 import CardsEstudianteDos from "./cardsEstudianteDos";
 
@@ -16,7 +16,9 @@ const PaginaEstudiante = () => {
                 estudiantes a estudiar de manera más efectiva.
             </p>
             <Carousel />
+            <h2><br />Proceso del Diseño Centrado en el Usuario</h2>
             <CardsEstudianteUno />
+            <h2><br />El Diseño Atómico</h2>
             <CardsEstudianteDos />
         </div>
     );

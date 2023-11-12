@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./navbar";
-import Carousel from "./carousel";
+import Carousel from "./carouselPadres";
 import CardsPadreUno from "./cardsPadreUno";
 import CardsPadreDos from "./cardsPadreDos";
 

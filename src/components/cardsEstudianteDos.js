@@ -6,21 +6,27 @@ const CardsEstudiante = () => {
         <div class="card-group" style={{ height: "auto", margin: 10, padding: 10 }} >
             <div class="card">
                 <div class="card-header">
-                Escuchar Siempre
+                    Importancia del Diseño Atómico
                 </div>
                 <div class="card-body">
-                    <p class="card-text">El diseño no termina cuando se lanza la aplicación. Debes seguir escuchando a tus compañeros. ¿Hay algo que no les guste? ¿Algo que puedas mejorar? La retroalimentación constante es clave.</p>
-                
+                    <p class="card-text">Un diseño atómico es crucial para que nuestro código de nuestra aplicación pueda tener buena visibilidad, escalabilidad y flexibilidad. El diseño atómico,
+                        creado por Brad Frost y Dave Olsen, es una metodología de diseño que implica cinco bloques de diseño fundamentales, que al juntarse, vuelven el código más fácil de leer y
+                        modular. También, permite facilitar las pruebas y mejorar la calidad en general de nuestro programa.
+                    </p>
                 </div>
             </div>
 
             <div class="card">
                 <div class="card-header">
-                Hacerlo Bonito y Fácil
+                    Elementos y Estructura del Diseño Atómico
                 </div>
                 <div class="card-body">
-                    <p class="card-text">No solo se trata de que la aplicación funcione bien. También quieres que sea atractiva y fácil de usar. Esto hace que estudiar sea más agradable y efectivo.</p>
-                
+                    <p class="card-text"> <b>Atomos:</b> Componentes más básicos, pueden ser botones, inputs, formas, etc. <br />
+                        <b>Moléculas:</b> Combinación de átomos para construir algo funcional. <br />
+                        <b>Organismos:</b> Combinación de moléculas para crear una sección del interfaz. <br />
+                        <b>Plantillas:</b> Grupos de organismos que forman una página. <br />
+                        <b>Páginas:</b> Un sistema donde podemos ver muchas plantillas. Esta es nuestra aplicación como producto final.</p>
+
                 </div>
             </div>
         </div>
