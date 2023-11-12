@@ -2,7 +2,7 @@ const Navbar = () => {
     return (
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="https://www.unitec.edu/">
                     Universidad Tecnológica Centroamericana
                 </a>
                 <button
@@ -31,18 +31,18 @@ const Navbar = () => {
                             <a
                                 class="nav-link active"
                                 aria-current="page"
-                                href="/paginaPadre"
+                                href="/paginaEstudiante"
                             >
-                                Soy Padre
+                                Soy Estudiante
                             </a>
                         </li>
                         <li class="nav-item">
                             <a
                                 class="nav-link active"
                                 aria-current="page"
-                                href="/paginaEstudiante"
+                                href="/paginaPadre"
                             >
-                                Soy Estudiante
+                                Soy Padre
                             </a>
                         </li>
                     </ul>
